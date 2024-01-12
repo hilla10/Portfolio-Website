@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&amp;family=Russo+One&amp;display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link id="theme-style" rel="stylesheet" href="">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+
+    <div class="showcase">
+        <div class="container">
+            <h1>Hi, I'm Dennis Ivanov</h1>
+            <div class="wrapper">
+                <div class="header-wrapper">
+                    <div class="boxes">
+                        <div class="box box-1"></div>
+                        <div class="box box-2"></div>
+                        <div class="box box-3"></div>
+                    </div>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="grid">
+                    <div class="col-md-6 left-column">
+                        <img src="img/Dennis.jpg" alt="">
+                        <h3>Personalize Theme</h3>
+                        <div id="theme-wrapper">
+                            <div data-mode="light" class="theme-dot" id="light-mode"></div>
+                            <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+                            <div data-mode="green" class="theme-dot" id="green-mode"></div>
+                            <div data-mode="purple" class="theme-dot" id="purple-mode"></div>
+                        </div>
+                        <small>*Theme settings will be saved for <br> your next vist</small>
+                    </div>
+
+                    <div class="col-md-6 right-column">
+                        <div class="wrap">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-tr"></div>
+                            <h2>What I Do</h2>
+                            <p>I was a lead developer in a past life, now I enjoy teaching courses.</p>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container">
+            <div class="grid">
+                <div class="col-md-6">
+                    <h4>More about me</h4>
+                    <div class="main-content">
+                        <p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
+
+                        <p>While I keep busy teaching courses, I still take interviews in search of a great team &
+                            projects that interest me.</p>
+                    </div>
+                    <hr>
+
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Fullstack developer with primary focus on Django + React: </p>
+                    <a href="resume_2.pdf" target="_blank">Download Resume</a>
+
+                    <div class="program">
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Postgres</li>
+                        </ul>
+
+                        <ul>
+                            <li>Google Maps API</li>
+                            <li>JS Charts</li>
+                            <li>AWS (RDS/S3)</li>
+                            <li>Heroku</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="img-container">
+                        <img src="./img/follow.jpg" alt="">
+                    </div>
+                    <h3>Find me on Twitter & Youtube</h3>
+                    <a href="https://github.com/hilla10" target="_blank">Github: hilla10</a>
+                    <br>
+                    <a target="_blank" href="https://www.youtube.com/c/dennisivy">YouTube: @DennisIvy</a>
+                    <br>
+                    <a target="_blank" href="https://twitter.com/dennisivy11">Twitter: @DennisIvy11</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="container">
+            <h3>Some of my past project</h3>
+            <div class="grid">
+                <div class="col-md-4">
+                    <img class="thembnail" src="img/dash.jpg" alt="">
+                    <h5>Laboratory Management System</h5>
+                    <p>Designed built & mantained a the lab managment system for FOI Laboratories</p>
+                    <a href="post.html">Read More</a>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="thembnail" src="img/ecom.jpg" alt="">
+                    <h5>Online Store - CoursePost Title</h5>
+                    <p>Online store with paypal payments intergration and guest user shopping </p>
+                    <a href="post.html">Read More</a>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="thembnail" src="img/membership site.jpg" alt="">
+                    <h5>Membership Website</h5>
+                    <p>Modulized guide for online courses with step by step intructionss</p>
+                    <a href="post.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <h3>Get In Touch</h3>
+            <div class="form">
+                <form>
+                    <label>Name</label>
+                    <input type="text">
+                    <label>Subject</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Message</label>
+                    <textarea></textarea>
+                    <button type="submit" href="#" class="btn-dark">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
